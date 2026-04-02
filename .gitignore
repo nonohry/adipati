@@ -1,0 +1,80 @@
+```
+# Dependencies
+vendor/
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.class
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Environment specific
+.env
+.env.local
+.env.*
+!.env.example
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.nyc_output/
+jest-coverage/
+
+# Build and distribution
+dist/
+build/
+target/
+.sass-cache/
+*.min.js
+*.min.css
+
+# PHP specific
+*.php~
+phpunit.xml.dist
+.php_cs.cache
+
+# Laravel/Lumen specific (if applicable)
+storage/
+bootstrap/cache/
+```
